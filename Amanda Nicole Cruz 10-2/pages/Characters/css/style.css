@@ -1,0 +1,254 @@
+body{
+	text-align: center;
+	color: white;
+}
+
+/*title*/
+.title{
+	border: 1px solid pink;
+	padding: 10px;
+	height: 10vh;
+	background-color: black;
+}
+img{
+	max-width: 100%;
+	max-height: 100%;
+}
+.logo{
+	height: 75px;
+	width:75px;
+}
+.tit{
+	height: 110px;
+	width: 200px;
+}
+.logo{
+	height: 75px;
+	width:75px;
+}
+
+/*header*/
+.header{
+	height: 20vh;
+	padding: 2px;
+	background-color: pink;
+	border: 10px solid #e27589;
+	
+}
+.text{
+	text-align: center;
+	color: white;
+	font-family: Times New Roman;
+	font-size: 20px;
+	border: 5px solid black;
+}
+
+
+
+/*main-article*/
+.main-article{
+	border: 1px solid pink;
+	padding: 10px;
+	height: 310vh;
+	background-color: black;
+	display: grid;
+	grid-template-columns: repeat (4,1fr);
+	grid-template-rows: repeat (4,1fr);
+}
+.one{
+	grid-column: 1/2;
+	grid-row: 1/2;
+	
+	padding:10px;
+	text-align: justify;
+	font-family: Times New Roman;
+	font-size: 20px;
+}
+.two{
+	grid-column: 2/3;
+	grid-row: 1/2;
+	
+	padding: 10px;
+	text-align: justify;
+	font-family: Times New Roman;
+	font-size: 20px;
+}
+.three{
+	grid-column:3/4;
+	grid-row:1/2;
+	
+	padding: 10px;
+	text-align: justify;
+	font-family: Times New Roman;
+	font-size: 20px;
+}
+.four{
+	grid-column:4/5;
+	grid-row:1/2;
+	
+	padding:10px;
+	text-align: justify;
+	font-family: Times New Roman;
+	font-size: 20px;
+}
+.five{
+	grid-column:1/2;
+	grid-row:2/3;
+	
+	padding:10px;
+	text-align: justify;
+	font-family: Times New Roman;
+	font-size: 20px;
+}
+
+.six{
+	grid-column:2/3;
+	grid-row:2/3;
+	
+	padding:10px;
+	text-align: justify;
+	font-family: Times New Roman;
+	font-size: 20px;
+}
+
+.seven{
+	grid-column:3/4;
+	grid-row:2/3;
+	
+	padding:10px;
+	text-align: justify;
+	font-family: Times New Roman;
+	font-size: 20px;
+}
+
+.eight{
+	grid-column:4/5;
+	grid-row:2/3;
+	
+	padding:10px;
+	text-align: justify;
+	font-family: Times New Roman;
+	font-size: 20px;
+}
+
+.nine{
+	grid-column:1/2;
+	grid-row:3/4;
+	
+	padding:10px;
+	text-align: justify;
+	font-family: Times New Roman;
+	font-size: 20px;
+}
+
+.ten{
+	grid-column:2/3;
+	grid-row:3/4;
+	
+	padding:10px;
+	text-align: justify;
+	font-family: Times New Roman;
+	font-size: 20px;
+}
+
+.eleven{
+	grid-column:3/4;
+	grid-row:3/4;
+	
+	padding:10px;
+	text-align: justify;
+	font-family: Times New Roman;
+	font-size: 20px;
+}
+
+.twelve{
+	grid-column:4/5;
+	grid-row:3/4;
+	
+	padding:10px;
+	text-align: justify;
+	font-family: Times New Roman;
+	font-size: 20px;
+}
+
+.thirteen{
+	grid-column:1/2;
+	grid-row:4/5;
+	
+	padding:10px;
+	text-align: justify;
+	font-family: Times New Roman;
+	font-size: 20px;
+}
+
+.fourteen{
+	grid-column:2/3;
+	grid-row:4/5;
+	
+	padding:10px;
+	text-align: justify;
+	font-family: Times New Roman;
+	font-size: 20px;
+}
+
+.fifteen{
+	grid-column:3/4;
+	grid-row:4/5;
+	
+	padding:10px;
+	text-align: justify;
+	font-family: Times New Roman;
+	font-size: 20px;
+}
+
+.sixteen{
+	grid-column:4/5;
+	grid-row:4/5;
+	
+	padding:10px;
+	text-align: justify;
+	font-family: Times New Roman;
+	font-size: 20px;
+}
+
+.seventeen{
+	grid-column:1/2;
+	grid-row:5/6;
+	
+	padding:10px;
+	text-align: justify;
+	font-family: Times New Roman;
+	font-size: 20px;
+}
+
+.eighteen{
+	grid-column:2/3;
+	grid-row:5/6;
+	
+	padding:10px;
+	text-align: justify;
+	font-family: Times New Roman;
+	font-size: 20px;
+}
+
+.nineteen{
+	grid-column:3/4;
+	grid-row:5/6;
+	
+	padding:10px;
+	text-align: justify;
+	font-family: Times New Roman;
+	font-size: 20px;
+}
+
+.twenty{
+	grid-column:4/5;
+	grid-row:5/6;
+	
+	padding:10px;
+	text-align: justify;
+	font-family: Times New Roman;
+	font-size: 20px;
+}
+
+
