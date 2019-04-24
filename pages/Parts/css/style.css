@@ -1,0 +1,136 @@
+body{
+	text-align: center;
+	color: white;
+}
+
+/*title*/
+.title{
+	border: 1px solid pink;
+	padding: 10px;
+	height: 10vh;
+	background-color: black;
+}
+img{
+	max-width: 100%;
+	max-height: 100%;
+}
+.logo{
+	height: 75px;
+	width:75px;
+}
+.tit{
+	height: 110px;
+	width: 200px;
+}
+.logo{
+	height: 75px;
+	width:75px;
+}
+
+/*header*/
+.header{
+	height: 20vh;
+	padding: 2px;
+	background-color: pink;
+	border: 10px solid #e27589;
+	
+}
+.text{
+	text-align: center;
+	color: white;
+	font-family: Times New Roman;
+	font-size: 20px;
+	border: 5px solid black;
+}
+
+
+
+/*main-article*/
+.main-article{
+	border: 1px solid pink;
+	padding: 10px;
+	height: 155vh;
+	background-color: black;
+	display: grid;
+	grid-template-columns: repeat (5,1fr);
+	grid-template-rows: repeat (3,1fr);
+}
+.one{
+	grid-column: 1/2;
+	grid-row: 1/2;
+	border: 1px solid #7c3042;
+	padding:10px;
+	text-align: justify;
+	font-family: Times New Roman;
+	font-size: 20px;
+}
+.two{
+	grid-column: 2/3;
+	grid-row: 1/2;
+	border: 1px solid #7c3042;
+	padding: 10px;
+	text-align: justify;
+	font-family: Times New Roman;
+	font-size: 20px;
+}
+.three{
+	grid-column:3/4;
+	grid-row:1/2;
+	border: 1px solid #7c3042;
+	padding: 10px;
+	text-align: justify;
+	font-family: Times New Roman;
+	font-size: 20px;
+	
+}
+.four{
+	grid-column:4/5;
+	grid-row:1/2;
+	border: 1px solid #7c3042;
+	padding:10px;
+	text-align: justify;
+	font-family: Times New Roman;
+	font-size: 20px;
+	background-color:black;
+}
+.five{
+	grid-column: 1/2;
+	grid-row: 2/3;
+	border: 1px solid #7c3042;
+	padding:10px;
+	text-align: justify;
+	font-family: Times New Roman;
+	font-size: 20px;
+
+}
+.six{
+	grid-column: 2/3;
+	grid-row: 2/3;
+	border: 1px solid #7c3042;
+	padding: 10px;
+	text-align: justify;
+	font-family: Times New Roman;
+	font-size: 20px;
+
+}
+.seven{
+	grid-column:3/4;
+	grid-row:2/3;
+	border: 1px solid #7c3042;
+	padding: 10px;
+	text-align: justify;
+	font-family: Times New Roman;
+	font-size: 20px;
+}
+.eight{
+	grid-column:4/5;
+	grid-row:2/3;
+	border: 1px solid #7c3042;
+	padding:10px;
+	text-align: justify;
+	font-family: Times New Roman;
+	font-size: 20px;
+}
+
+
+
